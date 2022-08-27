@@ -1,6 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    
+    margin: 0;
 }
 .orange-color{
     color: orange;
@@ -18,12 +18,13 @@ p{
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 7%;
 }
 .top-banner img{
     width: 70%;
 }
-.top-banner a{
+
+.order-button{
     display: inline-block;
     margin-top: 30px;
     text-decoration: none;
@@ -32,7 +33,5 @@ p{
     padding: 15px 30px;
     background-image: linear-gradient(to right, orange, tomato);
     border-radius: 25px;
-}
-.order-button{
 
 }
