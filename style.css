@@ -12,6 +12,7 @@ h1{
 p{
   color: #828282;  
 }
+
 .flexiable-container{
     display: flex;
 }
@@ -23,6 +24,8 @@ p{
     width: 70%;
 }
 .top-banner a{
+    display: inline-block;
+    margin-top: 30px;
     text-decoration: none;
     font-weight: 700;
     color: white; 
@@ -31,4 +34,5 @@ p{
     border-radius: 25px;
 }
 .order-button{
+
 }
