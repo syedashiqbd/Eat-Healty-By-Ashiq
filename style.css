@@ -40,11 +40,13 @@ body{
    background-position: center;
    
 }
-.about-me-text h1{
+.about-me-text h1,
+.my-recipies-headline h1 {
     font-size: 50px;
     color: #707070;
 }
-.about-me-text p{
+.about-me-text p,
+.my-recipies-headline p{
     color: #18191F;
 }
 .about-me-area img{
@@ -58,4 +60,30 @@ body{
     padding-right: 10%;
     margin-top: 8%;
     text-align: justify;
+}
+.my-recipies-headline h1,
+.my-recipies-headline p{
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.recipie-item{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+
+}
+.recipie-item img{
+    width: 80%;
+    border-radius: 15px;
+}
+.first-item,
+.second-item,
+.third-item {
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right:2%;
+    box-shadow: 10px 10px 30px black;
+    border-radius: 15px;
 }
