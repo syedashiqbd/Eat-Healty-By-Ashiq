@@ -16,7 +16,8 @@ body{
 
 .top-banner-area,
 .about-me-area,
-.recipie-item-area{
+.recipie-item-area,
+.social-status{
     display: flex;
     justify-content:space-around;
 }
@@ -79,9 +80,18 @@ body{
     border-radius: 15px;
 }
 .recipie-item{
-    /* margin: 0 auto; */
     width: 28%;
     padding: 1.5%;
     border-radius: 20px;
-    box-shadow: 10px 10px 20px black;
+    box-shadow: 2px 5px 10px black;
+}
+.social-status{
+    width: 88%;
+    margin: 5% auto 0;
+    padding: 20px 0;
+    border-radius: 20px;
+    box-shadow: 2px 5px 10px black;
+}
+.social-status h1{
+    font-size: 40px;
 }
